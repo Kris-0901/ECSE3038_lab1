@@ -7,23 +7,13 @@
 This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
 parallel((parallel_resistors_in_circuit: list) -> float))
 
-<u> eg. </u>  parallel([100,200])  <u> OR </u> circuit_ressitance = parallel([100,200])
+[Eg.]  parallel(\[100,200\])  [OR] circuit_ressitance = parallel(\[100,200\])
 
 ### Function 2: 
 
-This functions accepts a list of resistance values and returns a float with total resistance in a parallel
 
-parallel((parallel_resistors_in_circuit: list) -> float))
-
-<u>eg.</u>  parallel([100,200])  <u>OR</u> circuit_ressitance = parallel([100,200])
 
 ### Function 3: 
-
-This functions accepts a list of resistance values and returns a float with total resistance in a parallel
-
-parallel((parallel_resistors_in_circuit: list) -> float))
-
-<u>eg.</u>  parallel([100,200])  <u>OR</u> circuit_ressitance = parallel([100,200])
 
 
 ## Purpose 
