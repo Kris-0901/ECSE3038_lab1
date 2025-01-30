@@ -4,15 +4,17 @@
 
 ### Function 1: 
 
-This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
+This functions accepts a list of resistance values and returns a float with total resistance in a parallel. ***(parallel_resistors_in_circuit: list) -> float)***
 
-parallel() ***(parallel_resistors_in_circuit: list) -> float)***
+    parallel() 
 
-**Eg.**  parallel( \[100,200] )  
+**Eg.**  
+
+    parallel( \[100,200] )  
          
-         **OR** 
+**OR** 
 
-         circuit_ressitance = parallel( \[100,200] )
+    circuit_ressitance = parallel( \[100,200] )
 
 ### Function 2: 
 
