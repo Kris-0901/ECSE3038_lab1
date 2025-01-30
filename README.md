@@ -6,7 +6,7 @@
 
 This functions accepts a variable of type 'list' with resistance values and returns a variable of type 'float' with the total resistance in a parallel. It also will print the result to the terminal. 
 
-   ***parallel(parallel_resistors_in_circuit:list) -> float***
+   *parallel(parallel_resistors_in_circuit:list) -> float*
 
 **Eg.**  
 
