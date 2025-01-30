@@ -4,7 +4,7 @@
 
 ### Function 1: 
 
-This functions accepts a list of resistance values and returns a float with total resistance in a parallel. ***(parallel_resistors_in_circuit: list) -> float)***
+This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
 
 **Eg.**  
 
