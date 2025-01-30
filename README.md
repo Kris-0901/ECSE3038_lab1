@@ -4,7 +4,7 @@
 
 ### Function 1: 
 
-This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
+This functions accepts a list variable of resistance values and returns a float variable of the total resistance in a parallel. It also will print the results to the terminal. 
 
 **Eg.**  
 
