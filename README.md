@@ -7,7 +7,7 @@
 This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
 parallel((parallel_resistors_in_circuit: list) -> float))
 
-[Eg.]  parallel(\[100,200\])  [OR] circuit_ressitance = parallel(\[100,200\])
+[Eg.]  parallel(\[100,200])  [OR] circuit_ressitance = parallel(\[100,200])
 
 ### Function 2: 
 
