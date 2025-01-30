@@ -13,7 +13,7 @@ This functions accepts a variable of type 'list' with resistance values and retu
          
 **OR** 
 
-    circuit_ressitance = parallel([100,200])
+    circuit_resistance = parallel([100,200])
 
 ### Function 2: 
 
