@@ -1,8 +1,8 @@
-#ECSE3038_lab1 
+# ECSE3038_lab1 
 
- ##Summary
+ ## Summary
 
-###Function 1: 
+### Function 1: 
 
 This functions accepts a list of resistance values and returns a float with total resistance in a parallel.
 
@@ -10,7 +10,7 @@ parallel((parallel_resistors_in_circuit: list) -> float))
 
 <u>eg.</u>  parallel([100,200])  <u>OR</u> circuit_ressitance = parallel([100,200])
 
-###Function 2: 
+### Function 2: 
 
 This functions accepts a list of resistance values and returns a float with total resistance in a parallel
 
@@ -18,7 +18,7 @@ parallel((parallel_resistors_in_circuit: list) -> float))
 
 <u>eg.</u>  parallel([100,200])  <u>OR</u> circuit_ressitance = parallel([100,200])
 
-###Function 3: 
+### Function 3: 
 
 This functions accepts a list of resistance values and returns a float with total resistance in a parallel
 
@@ -27,7 +27,7 @@ parallel((parallel_resistors_in_circuit: list) -> float))
 <u>eg.</u>  parallel([100,200])  <u>OR</u> circuit_ressitance = parallel([100,200])
 
 
-##Purpose 
+## Purpose 
 
 This code was written to fulfill the course requirements of **'ECSE3038 Engineering Internet of Things Systems'** and to learn the Python programming language.  
 
