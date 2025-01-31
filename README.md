@@ -19,7 +19,7 @@ Parallel resistors in circuit: [330, 1000, 2200] ohms
 The total parallel resistance is: 222.973 ohms
 
 ```      
-**OR** store new variable
+**OR** store in new variable
 
     circuit_resistance = parallel([100,200])
 
@@ -57,7 +57,7 @@ The voltage drops across each resistor are as follows:
 ```   
 
          
-**OR** store new variable
+**OR** store in new variable
 
     resistors_and_voltage_drops = potential_divider(9, [3000, 1000])
 
