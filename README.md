@@ -70,8 +70,8 @@ The voltage drops across each resistor are as follows:
 
 ### Function 3: 
 
-This function accepts a variable of type 'flaot' as the patient's temperature and a variable of type 'chr' 
-('C' or 'F') as the temperature unit. It then uses predefined upper and lower threshholds in both fareheit and 
+This function accepts a variable of type 'flaot' as the patient's temperature and a variable of type 'str' 
+('C' or 'F') as the temperature unit. It then uses predefined upper and lower threshholds in both farenheit and 
 celcius to determine if the patient is hypothermic, hyperthermic or has normal body temperature. 
 The result is then output. The function also employs error checking for incorrect temperature unit and 
 returns an error statement.  
