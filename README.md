@@ -10,7 +10,7 @@ This functions accepts a variable of type 'list' with resistance values and retu
 
     parallel([100,200])  
 
-#### Expected output: 
+**Expected output:** 
 ```
 Parallel resistors in circuit: [330, 1000, 2200] ohms
 
@@ -39,7 +39,7 @@ the resistor/resistance values and their corresponding voltage drops.
 
     potential_divider(9, [3000, 1000])  
 
-#### Expected output: 
+**Expected output:**
 ```
 SUMMARY:
 
