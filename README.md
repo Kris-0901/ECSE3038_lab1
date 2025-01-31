@@ -18,7 +18,25 @@ This functions accepts a variable of type 'list' with resistance values and retu
 
 ### Function 2: 
 
+This function accepts a variable of type float with the voltage supply value and a variable of 
+type list with the seires resistor values in a voltage divider circuit. 
 
+The function then calculates the overall current using I=V/R. 
+Where R is the total series resistance. The total current is then used to determine 
+the voltage drop accross each resistor using V=IR. 
+
+The fucntion will output a summary of voltage divider circuit  along with a list of dictionaries with 
+the resistor/resistance values and their corresponding voltage drops. 
+
+   *potential_divider(voltage_supply_value: float,series_resistor_values: list) -> list*
+
+**Eg.**  
+
+    potential_divider(9, [3000, 1000])  
+         
+**OR** 
+
+    resistors_and_voltage_drops = potential_divider(9, [3000, 1000])
 
 ### Function 3: 
 
