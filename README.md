@@ -1,6 +1,4 @@
-# ECSE3038_lab1 
-
- ## Summary
+ # Summary
 
 ### Function 1: 
 
@@ -64,11 +62,11 @@ The voltage drops across each resistor are as follows:
 ### Function 3: 
 
 
-## Purpose 
+# Purpose 
 
 This code was written to fulfill the course requirements of **'ECSE3038 Engineering Internet of Things Systems'** and to learn the Python programming language.  
 
-## A Short Joke 
+# A Short Joke 
 
 *Jason Todd walks into a bar, where the Joker is behind the counter. 
 He says "Jason, you know I can't serve Robins here"
