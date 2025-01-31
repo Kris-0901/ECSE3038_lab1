@@ -102,3 +102,74 @@ def potential_divider(voltage_supply_value:float,series_resistor_values:list) ->
 potential_divider(9, [3000, 1000])
 
 #resistors_and_voltage_drops=potential_divider(9, [3000, 1000])
+
+print("")
+print("")
+print("3.")
+print("")
+
+"""
+3. Write a function, temperature_check(), that accepts a single number, a patient's body 
+temperature, and a single character, the unit of temperature. The function should output whether 
+the patient is hypothermic, hyperthermic or has normal body temperature based on the number passed to the function. 
+The second value passed as argument should tell the function whether the 
+condition should calculated in degrees celcius or degrees fahrenheit.
+An appropriate message should be written to the screen with the result. 
+You’re free to use what ever reasonable temperature limits you feel will adequately act as boundaries for these conditions.
+eg. 
+> temperature_check(14, "C")
+> "the patient is hypothermic"
+
+> temperature_check(37, "C")
+> "the patient's temperature is normal"
+
+> temperature_check(37, "F")
+> "the patient is hypothermic"
+"""
+#This function accepts a variable of type 'flaot' as the patient's temperature and a variable of type 'chr' 
+# ('C' or 'F') as the temperature unit. It then uses predefined upper and lower threshhold in both fareheit and 
+# celcius to determine if the patient is hypothermic, hyperthermic or has normal body temperature. 
+# The result is then output. The function also employs error checking for incorrect temperature unit and 
+# returns an error statement.   
+
+def temperature_check(patient_temperature:float,temperature_unit:chr):
+    
+    if (temperature_unit.upper() =="C"):
+        lower_threshold= 34.4
+        upper_threshold=37.6
+        if (patient_temperature<lower_threshold):
+           print("The patient's temperature, '" +str(patient_temperature)+ "' C is hypothermic")
+        elif(patient_temperature>upper_threshold):
+            print("The patient's temperature, '" +str(patient_temperature)+ "' C is hyperthermic")
+        else:
+            print("the patient's temperature, '" +str(patient_temperature)+ "' C is normal")
+    elif(temperature_unit.upper() =="F"):
+        lower_threshold= 94.0
+        upper_threshold=99.7
+        if (patient_temperature<lower_threshold):
+            print("The patient's temperature, '" +str(patient_temperature)+ "' F is hypothermic")
+        elif(patient_temperature>upper_threshold):
+            print("The patient's temperature, '" +str(patient_temperature)+ "' F is hyperthermic")
+        else:
+            print("the patient's temperature, '" +str(patient_temperature)+ "' F is normal")
+    else:
+     print("Invalid unit. Please enter 'C' or 'F' as temperature unit")
+     return 
+
+
+
+temperature_check(99.7,"C")
+temperature_check(99.7,"F")
+
+temperature_check(37.6,"C")
+temperature_check(37.6,"F")
+
+print("")
+print("Error Return Statement:")
+
+temperature_check(37.6,"A") # example of invalid return statement
+
+print("")
+
+
+
