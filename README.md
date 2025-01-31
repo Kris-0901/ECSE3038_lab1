@@ -11,15 +11,22 @@ This functions accepts a variable of type 'list' with resistance values and retu
 **Eg.**  
 
     parallel([100,200])  
-         
+
+#### Expected output: 
+```
+Parallel resistors in circuit: [330, 1000, 2200] ohms
+
+The total parallel resistance is: 222.973 ohms
+
+```      
 **OR** 
 
     circuit_resistance = parallel([100,200])
 
 ### Function 2: 
 
-This function accepts a variable of type float with the voltage supply value and a variable of 
-type list with the seires resistor values in a voltage divider circuit. 
+This function accepts a variable of type 'float' with the voltage supply value and a variable of 
+type 'list' with the seires resistor values in a voltage divider circuit. 
 
 The function then calculates the overall current using I=V/R. 
 Where R is the total series resistance. The total current is then used to determine 
