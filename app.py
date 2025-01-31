@@ -132,7 +132,7 @@ eg.
 # The result is then output. The function also employs error checking for incorrect temperature unit and 
 # returns an error statement.   
 
-def temperature_check(patient_temperature:float,temperature_unit:chr):
+def temperature_check(patient_temperature:float,temperature_unit:str):
     
     if (temperature_unit.upper() =="C"):
         lower_threshold= 34.4
