@@ -1,5 +1,8 @@
  # Summary
 
+
+
+
 ### Function 1: 
 
 This functions accepts a variable of type 'list' with resistance values and returns a variable of type 'float' with the total resistance in a parallel. It also will print the result to the terminal. 
@@ -20,6 +23,9 @@ The total parallel resistance is: 222.973 ohms
 **OR** store in new variable
 
     circuit_resistance = parallel([100,200])
+
+
+    
 
 ### Function 2: 
 
@@ -59,8 +65,43 @@ The voltage drops across each resistor are as follows:
 
     resistors_and_voltage_drops = potential_divider(9, [3000, 1000])
 
+
+    
+
 ### Function 3: 
 
+This function accepts a variable of type 'flaot' as the patient's temperature and a variable of type 'chr' 
+('C' or 'F') as the temperature unit. It then uses predefined upper and lower threshholds in both fareheit and 
+celcius to determine if the patient is hypothermic, hyperthermic or has normal body temperature. 
+The result is then output. The function also employs error checking for incorrect temperature unit and 
+returns an error statement.  
+
+   *temperature_check(patient_temperature: float,temperature_unit: str) -> None*
+
+**Eg.**  
+```
+    temperature_check(99.7,"C")
+    temperature_check(99.7,"F")
+
+    temperature_check(37.6,"C")
+    temperature_check(37.6,"F")
+
+    print("")
+    print("Error Return Statement:")
+
+    temperature_check(37.6,"A") # example of invalid return statement
+```
+**Expected output:** 
+```
+The patient's temperature, '99.7' C is hyperthermic
+the patient's temperature, '99.7' F is normal
+the patient's temperature, '37.6' C is normal
+The patient's temperature, '37.6' F is hypothermic
+
+Error Return Statement:
+Invalid unit. Please enter 'C' or 'F' as temperature unit
+
+```      
 
 # Purpose 
 
