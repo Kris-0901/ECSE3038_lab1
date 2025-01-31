@@ -19,7 +19,7 @@ Parallel resistors in circuit: [330, 1000, 2200] ohms
 The total parallel resistance is: 222.973 ohms
 
 ```      
-**OR** 
+**OR** store new variable
 
     circuit_resistance = parallel([100,200])
 
@@ -40,8 +40,24 @@ the resistor/resistance values and their corresponding voltage drops.
 **Eg.**  
 
     potential_divider(9, [3000, 1000])  
+
+#### Expected output: 
+```
+SUMMARY:
+
+A voltage divider circuit has a power supply of 9v
+The resistors in series are as follows: [3000, 1000]ohms
+The total current in the circuit is 0.00225A
+
+The voltage drops across each resistor are as follows:
+
+{'resistance': '3000 ohms', 'voltage_drop': '6.75v'}
+{'resistance': '1000 ohms', 'voltage_drop': '2.25v'}
+
+```   
+
          
-**OR** 
+**OR** store new variable
 
     resistors_and_voltage_drops = potential_divider(9, [3000, 1000])
 
