@@ -1,6 +1,4 @@
-# ECSE3038_lab1 
-
- ## Summary
+ # Summary
 
 ### Function 1: 
 
@@ -11,15 +9,22 @@ This functions accepts a variable of type 'list' with resistance values and retu
 **Eg.**  
 
     parallel([100,200])  
-         
-**OR** 
+
+**Expected output:** 
+```
+Parallel resistors in circuit: [330, 1000, 2200] ohms
+
+The total parallel resistance is: 222.973 ohms
+
+```      
+**OR** store in new variable
 
     circuit_resistance = parallel([100,200])
 
 ### Function 2: 
 
-This function accepts a variable of type float with the voltage supply value and a variable of 
-type list with the seires resistor values in a voltage divider circuit. 
+This function accepts a variable of type 'float' with the voltage supply value and a variable of 
+type 'list' with the seires resistor values in a voltage divider circuit. 
 
 The function then calculates the overall current using I=V/R. 
 Where R is the total series resistance. The total current is then used to determine 
@@ -33,19 +38,35 @@ the resistor/resistance values and their corresponding voltage drops.
 **Eg.**  
 
     potential_divider(9, [3000, 1000])  
+
+**Expected output:**
+```
+SUMMARY:
+
+A voltage divider circuit has a power supply of 9v
+The resistors in series are as follows: [3000, 1000]ohms
+The total current in the circuit is 0.00225A
+
+The voltage drops across each resistor are as follows:
+
+{'resistance': '3000 ohms', 'voltage_drop': '6.75v'}
+{'resistance': '1000 ohms', 'voltage_drop': '2.25v'}
+
+```   
+
          
-**OR** 
+**OR** store in new variable
 
     resistors_and_voltage_drops = potential_divider(9, [3000, 1000])
 
 ### Function 3: 
 
 
-## Purpose 
+# Purpose 
 
 This code was written to fulfill the course requirements of **'ECSE3038 Engineering Internet of Things Systems'** and to learn the Python programming language.  
 
-## A Short Joke 
+# A Short Joke 
 
 *Jason Todd walks into a bar, where the Joker is behind the counter. 
 He says "Jason, you know I can't serve Robins here"
